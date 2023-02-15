@@ -11,5 +11,8 @@
     "asicronismo"
   ],
   "author": "jhon mantilla jhon.e.mantilla@gmail.com",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
