@@ -38,3 +38,12 @@ function grettin(name){
 
 // Argumentos la función, el tiempo, el argumento que recibe la función grettin(name)
 setTimeout(grettin, 2000, 'Jhon');
+
+const myFunc = () => console.log('log after 2s');
+
+function execCallback(callback) {
+    // Tu código aquí 👈
+    return setTimeout(callback, 2000);
+  }
+
+  execCallback(myFunc);
