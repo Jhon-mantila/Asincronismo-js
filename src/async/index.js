@@ -11,10 +11,10 @@ const anotherFn = async () => {
     const something = await fnAsync();
 
     console.log(something);
-    console.log('Hello!');
+    console.log('Hello!'); // imprime de cuarto
 
 }
 
-console.log('Before');
-anotherFn();
-console.log('After');
+console.log('Before'); //imprime primero
+anotherFn(); //imprime hasta se cumpla los 2 segundos 
+console.log('After'); //imprime segundo
